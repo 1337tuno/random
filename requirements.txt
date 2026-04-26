@@ -1,0 +1,14 @@
+# Beast Eats Discord Bot - Requirements
+# Install with: pip install -r requirements.txt
+
+# Main Discord library (includes commands, ui, etc.)
+discord.py>=2.3.2
+
+# Optional: Environment variable management (recommended for token security)
+python-dotenv>=1.0.0
+
+# Optional: For better async performance
+aiohttp>=3.8.0
+
+# Optional: Type checking (development)
+# typing-extensions>=4.0.0
